@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Yuri" >
+
+    <TextView
+        android:id="@+id/IPADRESSINFO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/IPADRESSINFO" />
+
+    <TextView
+        android:id="@+id/IPADRESS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/IPADRESSINFO"
+        android:layout_alignBottom="@+id/IPADRESSINFO"
+        android:layout_toRightOf="@+id/IPADRESSINFO"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/Recrepinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/IPADRESSINFO"
+        android:layout_below="@+id/IPADRESS"
+        android:text="@string/Recrepinfo" />
+
+    <TextView
+        android:id="@+id/Recrep2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Recrepinfo"
+        android:layout_alignBottom="@+id/Recrepinfo"
+        android:layout_toRightOf="@+id/Recrepinfo"
+        android:textIsSelectable="true" />
+
+</RelativeLayout>
